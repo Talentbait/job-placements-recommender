@@ -1,0 +1,11 @@
+media/*
+saves/*
+nurse_placements_dataset_with_youtube_ids_and_description.csv
+.DS_Store
+recommender_systems_prev_versions/*
+__pycache__/*
+collaborative_filtering/models/*
+collaborative_filtering/*.json
+!collaborative_filtering/models/collaborative_system
+# !collaborative_filtering/models/case_sensitive
+recommender_metrics.py
