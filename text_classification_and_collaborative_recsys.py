@@ -10,6 +10,7 @@ except:
 import plotly.express as px
 import re
 import pandas as pd
+import utils
 
 
 with open('unique_placements.json') as json_file:
@@ -39,13 +40,14 @@ def getPlacementFromId(placement_id):
     return ids_to_placement_dict[int(placement_id)]
 
 def clean_description(description):
-    description = re.sub(r"http\S+", "", description)
-    description = re.sub(r"\S+__\S+", "", description)
-    description = re.sub(r"\S+@\S+", "", description)
-    description = re.sub(r"\S+.com\S+", "", description)
-    # description = description.lower()
-    # description = re.sub(r'[^a-z0-9äöüß\s]', '', description)
-    return re.sub(r'\s{2,}', ' ', description)
+    # description = re.sub(r"http\S+", "", description)
+    # description = re.sub(r"\S+__\S+", "", description)
+    # description = re.sub(r"\S+@\S+", "", description)
+    # description = re.sub(r"\S+.com\S+", "", description)
+    # # description = description.lower()
+    # # description = re.sub(r'[^a-z0-9äöüß\s]', '', description)
+    # return re.sub(r'\s{2,}', ' ', description)
+    return utils.clean_description(description)
 
 ##############################################################################################
 # Job title classification
@@ -56,16 +58,17 @@ job_title = clean_description(st.text_input(
     label = 'Enter a job title here',
     value = 'Busfahrer'
 ))
-
+st.write("The preprocessed input will be: **" + job_title +"**")
 @st.cache()
 def init_placement_classifier(): 
     print("Starspace: init (placement classification model)")
     arg = sw.args()
     arg.label = '__placement__'
     arg.dim = 300
+    arg.trainMode = 0
     model = sw.starSpace(arg)
     print("Starspace: loading from saved model (placement classification model)")
-    model.initFromSavedModel('collaborative_filtering/models/case_sensitive')
+    model.initFromTsv('collaborative_filtering/models/german_vectors_and_placement_embeddings.tsv')
     print("Placement classification model loaded succesfully")
     return model
 
@@ -73,25 +76,28 @@ placement_classifier = init_placement_classifier()
 
 related_predicts = 20
 domain_related_predictions_dict = placement_classifier.predictTags(job_title, related_predicts)
-domain_related_predictions_dict = sorted( domain_related_predictions_dict.items(), key = itemgetter(1), reverse = True )
+domain_related_predictions_dict = sorted(domain_related_predictions_dict.items(), key = itemgetter(1), reverse = True )
 print(f"Predicted {related_predicts} domain related placements.")
 domain_related_placement_names = []
 domain_related_placement_info = []
 print("Processing predicted tags")
+print(len(domain_related_predictions_dict))
 for tag, prob in domain_related_predictions_dict:
     tag_placement_id = tag.replace("__placement__", "")
     if prob > 0:
+        info = getPlacementFromId(tag_placement_id)
+        info['score'] = str(round(prob*100,2)) + "%"
         domain_related_placement_names.append(getNameFromId(tag_placement_id))
-        domain_related_placement_info.append(getPlacementFromId(tag_placement_id))
+        domain_related_placement_info.append(info)
 
 # When there is no match from the job title with YouTube placements, then there's nothing else to do
 if  not len(domain_related_placement_names) > 0:
     st.write(f"There were no matching placements for {job_title}.")
-    st.subheader(f"Unfortunately, as there are no domain related placements found for {job_title}, the rest of the recommender system has no use. PLease try entering another job title")
+    st.subheader(f"Unfortunately, as there are no domain related placements found for {job_title}, the rest of the recommender system has no use. Please try entering another job title")
 else:
     domain_related_placement_table = pd.DataFrame(domain_related_placement_info)
-    domain_related_placement_table['description'] = domain_related_placement_table['description'].apply(clean_description)
-    st.write(domain_related_placement_table[['name','type','description']])
+    domain_related_placement_table['description'] = domain_related_placement_table['description'].apply(lambda x: clean_description(x))
+    st.write(domain_related_placement_table[['name','type','description','score']])
 
     ##############################################################################################
     # Collaborative model    
