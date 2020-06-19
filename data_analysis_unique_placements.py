@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.figure_factory as ff
 import seaborn as sns
 from PIL import Image
+import json
 
 
 st.title("Data Analysis - Unique placements")

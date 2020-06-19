@@ -1,0 +1,114 @@
+{
+    "labeled_data": [
+        {
+            "label": "salesforce.com",
+            "text": "Cloud-basierte CRM L\u00f6sungen f\u00fcr Vertrieb, Kundenservice & Marketing von Salesforce, dem f\u00fchrenden CRM Software Anbieter. Mehr als 100.000 erfolgreiche Kunden!",
+            "meta": {
+                "url": "https://www.salesforce.com/de/?ir=1",
+                "score": 0.46198599999999995,
+                "id": 156519
+            },
+            "options": [
+                {
+                    "id": "Vertriebsmitarbeiter",
+                    "text": "\ud83d\udcb5Vertriebsmitarbeiter"
+                },
+                {
+                    "id": "Erzieher",
+                    "text": "\ud83d\udc76Erzieher"
+                },
+                {
+                    "id": "Elektrotechniker",
+                    "text": "\ud83d\udd0cElektrotechniker"
+                }
+            ],
+            "_input_hash": -520266665,
+            "_task_hash": 1480755978,
+            "accept": [
+                "Vertriebsmitarbeiter"
+            ],
+            "answer": "accept"
+        },
+        {
+            "label": "salesjob.de",
+            "text": "Jobb\u00f6rse f\u00fcr Vertrieb Jobs \u2192 Deutschlandweite Stellenangebote f\u00fcr Fach- und F\u00fchrungskr\u00e4fte im Sales. \u27a4 Starten Sie jetzt mit Ihrer Vertriebskarriere durch!",
+            "meta": {
+                "url": "https://www.salesjob.de/",
+                "score": 0.43277299999999996,
+                "id": 156521
+            },
+            "options": [
+                {
+                    "id": "Vertriebsmitarbeiter",
+                    "text": "\ud83d\udcb5Vertriebsmitarbeiter"
+                },
+                {
+                    "id": "Erzieher",
+                    "text": "\ud83d\udc76Erzieher"
+                },
+                {
+                    "id": "Elektrotechniker",
+                    "text": "\ud83d\udd0cElektrotechniker"
+                }
+            ],
+            "_input_hash": 134213104,
+            "_task_hash": -1973016262,
+            "accept": [
+                "Vertriebsmitarbeiter"
+            ],
+            "answer": "accept"
+        },
+        {
+            "label": "truckerboerse.com",
+            "text": "3892 LKW Fahrer gesucht bei Truckerboerse Stellenmarkt | Berufskraftfahrer Stellenangebote | Fernfahrer Jobs | Kraftfahrer Jobb\u00f6rse | Ausland Jobangebote",
+            "meta": {
+                "url": "http://truckerboerse.com",
+                "score": 0.4131,
+                "id": 11293
+            },
+            "options": [
+                {
+                    "id": "Vertriebsmitarbeiter",
+                    "text": "\ud83d\udcb5Vertriebsmitarbeiter"
+                },
+                {
+                    "id": "Erzieher",
+                    "text": "\ud83d\udc76Erzieher"
+                },
+                {
+                    "id": "Elektrotechniker",
+                    "text": "\ud83d\udd0cElektrotechniker"
+                }
+            ],
+            "_input_hash": -262084203,
+            "_task_hash": 612645085,
+            "answer": "reject"
+        },
+        {
+            "label": "stellenangebotekraftfahrer.eu",
+            "text": "3892 LKW Fahrer gesucht bei Truckerboerse Stellenmarkt | Berufskraftfahrer Stellenangebote | Fernfahrer Jobs | Kraftfahrer Jobb\u00f6rse | Ausland Jobangebote",
+            "meta": {
+                "url": "http://stellenangebotekraftfahrer.eu",
+                "score": 0.4131,
+                "id": 7148
+            },
+            "options": [
+                {
+                    "id": "Vertriebsmitarbeiter",
+                    "text": "\ud83d\udcb5Vertriebsmitarbeiter"
+                },
+                {
+                    "id": "Erzieher",
+                    "text": "\ud83d\udc76Erzieher"
+                },
+                {
+                    "id": "Elektrotechniker",
+                    "text": "\ud83d\udd0cElektrotechniker"
+                }
+            ],
+            "_input_hash": -262084203,
+            "_task_hash": -285332999,
+            "answer": "ignore"
+        }
+    ]
+}

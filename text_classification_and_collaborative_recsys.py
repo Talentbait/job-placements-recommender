@@ -69,6 +69,7 @@ def init_placement_classifier():
     model = sw.starSpace(arg)
     print("Starspace: loading from saved model (placement classification model)")
     model.initFromTsv('collaborative_filtering/models/german_vectors_and_placement_embeddings.tsv')
+    # model.initFromSavedModel('collaborative_filtering/models/preprocessing_without_lowercasing_v01')
     print("Placement classification model loaded succesfully")
     return model
 

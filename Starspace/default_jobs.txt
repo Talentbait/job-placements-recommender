@@ -1,0 +1,5 @@
+Bankkaufmann
+Krankenschwester
+Busfahrer
+Elektrotechniker
+Softwareentwickler

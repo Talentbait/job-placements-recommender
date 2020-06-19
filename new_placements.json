@@ -1,0 +1,667 @@
+{
+    "http://heise.de/": {
+        "name": "Heise",
+        "id": 156458,
+        "type": "Site",
+        "description": "News und Foren zu Computer, IT, Wissenschaft, Medien und Politik. Preisvergleich von Hardware und Software sowie Downloads bei Heise Medien.",
+        "language": "de"
+    },
+    "https://code-crowd.de/": {
+        "name": "code-crowd.de",
+        "id": 156459,
+        "type": "Site",
+        "description": "Lerne programmieren mit praxisnahen und professioenllen Tutorials und Online Kursen. Lerne HTML, CSS, JavaScript und WordPress Development.",
+        "language": "de"
+    },
+    "https://dash.generalassemb.ly/": {
+        "name": "dash.generalassemb.ly",
+        "id": 156460,
+        "type": "Site",
+        "description": "Dash ist ein Spa\u00df und kostenloser Online-Kurs von General Assembly, die Ihnen, wie Sie Programm mit den Grundlagen der Web-Entwicklung durch Projekte lehren Sie direkt in Ihrem Browser tun. Starten Sie noch heute!",
+        "language": "de"
+    },
+    "https://github.com/": {
+        "name": "GitHub",
+        "id": 156461,
+        "type": "Site",
+        "description": "GitHub ist, wo Menschen Software bauen. Mehr als 50 Millionen Menschen nutzen GitHub auf \u00fcber 100 Millionen Projekten zu entdecken, Gabel und beitragen.",
+        "language": "de"
+    },
+    "https://lerneprogrammieren.de/": {
+        "name": "lerneprogrammieren.de",
+        "id": 156462,
+        "type": "Site",
+        "description": "Erstelle die Programme, die du im Kopf hast. Programmieren einfach lernen, ohne Vorwissen. Jetzt auf lerneProgrammieren.de einsteigen.",
+        "language": "de"
+    },
+    "https://slashdot.org/": {
+        "name": "SlashDot",
+        "id": 156463,
+        "type": "Site",
+        "description": "Slashdot: News f\u00fcr Nerds, Sachen, die Angelegenheiten. Rechtzeitige Nachrichtenquelle f\u00fcr Technologie in Verbindung stehende Nachrichten mit einer schweren Neigung in Richtung Linux und Open-Source-Themen.",
+        "language": "de"
+    },
+    "https://stackoverflow.com/": {
+        "name": "StackOverflow",
+        "id": 156464,
+        "type": "Site",
+        "description": "Stack-\u00dcberlauf ist die gr\u00f6\u00dfte, vertrauensw\u00fcrdigste Online-Community f\u00fcr Entwickler zu lernen, ihre Programmierkenntnisse teilen, und bauen ihre Karriere.",
+        "language": "de"
+    },
+    "https://teamtreehouse.com/": {
+        "name": "Treehouse",
+        "id": 156465,
+        "type": "Site",
+        "description": "Erfahren Sie Web-Design, Programmierung und vieles mehr mit Treehouse. Sie k\u00f6nnen in Ihrem eigenen Tempo und werden Job bereit innerhalb weniger Monate lernen. Starten Sie Ihre kostenlose Testversion!",
+        "language": "de"
+    },
+    "https://www.codecademy.com/": {
+        "name": "CodeAcademy",
+        "id": 156466,
+        "type": "Site",
+        "description": "Lernen Sie die technischen F\u00e4higkeiten, die Sie f\u00fcr den Job brauchen Sie wollen. Als F\u00fchrer in Online-Bildung und Code Lernen, haben wir mehr als 45 Millionen Menschen mit einem getestet Lehrplan und eine interaktive Lernumgebung vermittelt. Beginnen Sie mit HTML, CSS, JavaScript, SQL, Python, Daten, Wissenschaft und vieles mehr.",
+        "language": "de"
+    },
+    "https://www.freecodecamp.org/": {
+        "name": "freecodecamp.org",
+        "id": 156467,
+        "type": "Site",
+        "description": "Erfahren Sie, um Code zu Hause | freeCodeCamp.org",
+        "language": "de"
+    },
+    "https://www.it-treff.de/": {
+        "name": "it-treff",
+        "id": 156468,
+        "type": "Site",
+        "description": "Erfahren Sie, um Code zu Hause. Build-Projekte. Verdienen Zertifizierungen. Seit 2014\n                 mehr als 40.000 freeCodeCamp.org Absolventen haben bei Tech bekommen Jobs\n                 Unternehmen wie Google, Apple, Amazon und Microsoft.",
+        "language": "de"
+    },
+    "https://www.reddit.com/": {
+        "name": "Reddit",
+        "id": 156469,
+        "type": "Site",
+        "description": "Reddit ist ein Netzwerk von Gemeinden basierend auf die Interessen der Menschen. Finden Gemeinden Sie daran interessiert sind, und Teil einer Online-Gemeinschaft werden!",
+        "language": "de"
+    },
+    "https://www.udacity.com/": {
+        "name": "Udacity",
+        "id": 156470,
+        "type": "Site",
+        "description": "Verbessern Sie Ihre Karriere mit Online-Kurse in der Programmierung, Daten Wissenschaft, k\u00fcnstliche Intelligenz, digitales Marketing und vieles mehr. Errichtet mit Branchenf\u00fchrern.",
+        "language": "de"
+    },
+    "https://www.udemy.com/": {
+        "name": "Udemy",
+        "id": 156471,
+        "type": "Site",
+        "description": "Udemy ist ein Online-Lernen und Lehren Marktplatz mit \u00fcber 100.000 Kurse und 24 Millionen Studenten. Lernen Programmierung, Marketing, Daten Wissenschaft und vieles mehr.",
+        "language": "de"
+    },
+    "https://www.zdnet.de/": {
+        "name": "ZDnet",
+        "id": 156472,
+        "type": "Site",
+        "description": "ZDNet.de bietet aktuelle Nachrichten, Produkttests, Security und Praxis-Artikel aus dem IT-Bereich. Softwareentwickler erhalten wertvolle Ressourcen f\u00fcr ihre Projekte. IT-Manager und CIOs werden mit den neuesten Trends versorgt. Zudem bietet ZDNet.de Newsletter zu verschiedenen Bereichen.",
+        "language": "de"
+    },
+    "https://www.youtube.com/channel/UC1M6v6JEQyzTKeINGAaCfnw": {
+        "name": "Informatik - simpleclub",
+        "id": 156473,
+        "type": "YouTube channel",
+        "description": "LADE DIR JETZT KOSTENLOS DIE SIMPLECLUB APP RUNTER!\n\nsimpleclub ist die coolste Lernapp Deutschlands.\nMit simpleclub helfen wir dir, Mathematik, Physik, Biologie, Chemie, Wirtschaft, Geographie, Geschichte, Informatik und Maschinenbau schnell zu verstehen.\n\nWir zeigen dir au\u00dferdem, wie man richtig lernt, bessere Noten schreibt und effizient lernt.\nAlle Informatik Videos findest du in der simpleclub App.\n\n\u2014\n\nGr\u00fcnder & Gesch\u00e4ftsf\u00fchrer: Alexander Giesecke und Nicolai Schork\n\n\u2014\n\nTheSimpleClub hei\u00dft jetzt simpleclub\nTheSimpleInformatics hei\u00dft jetzt Informatik - simpleclub :)",
+        "language": "de"
+    },
+    "https://www.youtube.com/channel/UCVdfgrCLfJQfO5EgPlzaYAQ": {
+        "name": "Programmier Starten",
+        "id": 156474,
+        "type": "YouTube channel",
+        "description": "Willkommen auf Programmieren Starten. Dem Youtube-Kanal rund um das Thema Programmiersprachen.\nBesuche unsere Website: https://programmieren-starten.de/",
+        "language": "de"
+    },
+    "https://codepen.io/": {
+        "name": "CodePen",
+        "id": 156475,
+        "type": "Site",
+        "description": "Ein Online-Code-Editor, Lernumgebung und Community f\u00fcr Front-End-Web-Entwicklung mit HTML, CSS und JavaScript-Code-Schnipsel, Projekten und Web-Anwendungen.",
+        "language": "de"
+    },
+    "https://www.ihk.de/": {
+        "name": "ihk.de",
+        "id": 156476,
+        "type": "Site",
+        "description": "Der schnelle Weg zu Ihrer Industrie- und Handelskammer: mit dem IHK-Finder und Infos zu den wichtigsten Angeboten, Themen und Produkten.",
+        "language": "de"
+    },
+    "http://www.busfahrernetzwerk.de/": {
+        "name": "busfahrernetzwerk.de",
+        "id": 156477,
+        "type": "Site",
+        "description": "Netzwerk von BusfahrerInnen in privaten und &ouml;ffentlichen Omnibusunternehmen in St&auml;dten und Regionen in Baden-W&uuml;rttemberg",
+        "language": "de"
+    },
+    "https://forum.bustreff.de/": {
+        "name": "forum.bustreff.de",
+        "id": 156478,
+        "type": "Site",
+        "description": "Das Busforum f\u00fcr Busunternehmen",
+        "language": "de"
+    },
+    "https://www.autohaus.de/": {
+        "name": "autohaus.de",
+        "id": 156479,
+        "type": "Site",
+        "description": "Fachinformationen f\u00fcr den Autohandel und die Automobilbranche. Aktuelle Nachrichten, Auto News und mehr.",
+        "language": "de"
+    },
+    "http://krankenschwester.de": {
+        "name": "krankenschwester.de",
+        "id": 156480,
+        "type": "Site",
+        "description": "Pflege-Forum und Online Community f\u00fcr Pflegeberufe (Krankenschwester, Altenpflegerin, etc.)! Informationen und Diskussionen zu Krankenpflege, Altenpflege und Ambulante Pflege",
+        "language": "de"
+    },
+    "https://die-krankenschwester.de/": {
+        "name": "die-krankenschwester.de",
+        "id": 156481,
+        "type": "Site",
+        "description": "Schwester Elina beschreibt auf ihrem Blog den ganz normalen Klinikalltag einer Krankenschwester",
+        "language": "de"
+    },
+    "https://www.brigitte.de/": {
+        "name": "brigitte.de",
+        "id": 156482,
+        "type": "Site",
+        "description": "BRIGITTE.de: Mode oder Beauty, Di\u00e4t oder Rezepte - hier findet ihr genau die Themen, die Frauen interessieren, und eine lebendige Community.",
+        "language": "de"
+    },
+    "https://www.elektrotechnik360.de/forum/": {
+        "name": "elektrotechnik360.de/forum",
+        "id": 156483,
+        "type": "Site",
+        "description": "Das Elektrotechnik Forum mit Neuigkeiten aus den Bereichen Elektroinstallation, Elektrik und Elektrotechnik.",
+        "language": "de"
+    },
+    "http://www.forum-elektro.de/": {
+        "name": "forum-elektro.de",
+        "id": 156484,
+        "type": "Site",
+        "description": "Forum-Elektro.de ist ein Forum f\u00fcr die Elektrotechnik. Hier k\u00f6nnen sich Fachleute und Laien austauschen rund um das Thema Elektrotechnik, Elektroinstallation, Elektromobilit\u00e4t, Licht und Leuchten uvm",
+        "language": "de"
+    },
+    "https://www.diesteckdose.net/": {
+        "name": "diesteckdose.net",
+        "id": 156485,
+        "type": "Site",
+        "description": "Dieses Forum besch\u00e4ftigt sich mit folgenden Themen: E-Technik allgemein, E-Technik Grundlagen,  Elektrische Energietechnik, Elektronik, Ausbildung in den Elektroberufen, Normen (z.B. DIN/VDE), Computer Hard- und Software",
+        "language": "de"
+    },
+    "https://www.youtube.com/channel/UCnFjB-iXhFTIBHJ5rndwuSw": {
+        "name": "Elektrtechnik24",
+        "id": 156486,
+        "type": "YouTube channel",
+        "description": "Hallo, ich hei\u00dfe Michael Bauhaus und bin Lehrer f\u00fcr Elektrotechnik und Physik am \"Berufskolleg Borken\". Auf meinem Kanal findest du ausf\u00fchrliche Lernvideos, Hilfe- und Aufgabenzettel zu allen Bereichen der Elektrotechnik. Die Themenfelder sind nach Playlisten sortiert. Dieser Kanal wird st\u00e4ndig erweitert und wird langfristig (Sommer 2019) fast alle Themenfelder der Elektrotechnik bedienen.",
+        "language": "de"
+    },
+    "https://www.elektronikpraxis.vogel.de/": {
+        "name": "elektronikpraxis.vogel.de",
+        "id": 156487,
+        "type": "Site",
+        "description": "Elektronik-Fachzeitschrift und Fachinformationen f\u00fcr Elektronik-Entwicklung, Elektrotechnik, Embedded Systeme Hardwareentwicklung, Bauteilebeschaffung, Fertigung",
+        "language": "de"
+    },
+    "https://www.tuv.com/germany/de/": {
+        "name": "tuv.com",
+        "id": 156488,
+        "type": "Site",
+        "description": "Alle Angebote und Online Services von T\u00dcV Rheinland, T\u00dcV Berlin Brandenburg und T\u00dcV Pfalz. Ihr weltweiter Dienstleister f\u00fcr mehr Qualit\u00e4t und Sicherheit.",
+        "language": "de"
+    },
+    "https://www.baunetz-architekten.de": {
+        "name": "baunetz-architekten.de",
+        "id": 156489,
+        "type": "Site",
+        "description": "Baunetz ARCHITEKTEN pr\u00e4sentieren bildreich ausgew\u00e4hlte B\u00fcros mit ihren Referenzen, News, Terminen und Jobangeboten.",
+        "language": "de"
+    },
+    "https://architekten-scout.com/": {
+        "name": "architekten-scout.com",
+        "id": 156490,
+        "type": "Site",
+        "description": "Lesen Sie das spannende, aktuelle Architektenblog von und f\u00fcr Architekten und Bauherren. Insiderwissen f\u00fcr alle.",
+        "language": "de"
+    },
+    "https://www.german-architects.com/": {
+        "name": "german-architects.com",
+        "id": 156491,
+        "type": "Site",
+        "description": "Das Ziel der Archinect ist Architektur mehr verbunden und aufgeschlossen, und bringen zusammen Designern aus der ganzen Welt zu machen, um neue Ideen aus allen Disziplinen einzuf\u00fchren. Archinect wurde urspr\u00fcnglich im Jahr 1997 entwickelt und hat sich seit der Top-Online-Destination f\u00fcr Progressive-Design orientierten Architekten, Studenten, Ausbilder und Fans werden.",
+        "language": "de"
+    },
+    "https://www.archdaily.com/": {
+        "name": "archdaily.com",
+        "id": 156492,
+        "type": "Site",
+        "description": "ArchDaily, Rundfunk Architektur Weltweit: Architektur Nachrichten, Wettbewerbe und Projekte jede Stunde f\u00fcr die Architektur professionellen aktualisiert.",
+        "language": "de"
+    },
+    "https://bdia.de/": {
+        "name": "bdia.de",
+        "id": 156493,
+        "type": "Site",
+        "description": "Der bdia ist der Berufsverband der Innenarchitekten in Deutschland und setzt sich f\u00fcr sie in Politik, Wirtschaft und der \u00d6ffentlichkeit ein.",
+        "language": "de"
+    },
+    "https://archinect.com/": {
+        "name": "archinect.com",
+        "id": 156494,
+        "type": "Site",
+        "description": "Das Ziel der Archinect ist Architektur mehr verbunden und aufgeschlossen, und bringen zusammen Designern aus der ganzen Welt zu machen, um neue Ideen aus allen Disziplinen einzuf\u00fchren. Archinect wurde urspr\u00fcnglich im Jahr 1997 entwickelt und hat sich seit der Top-Online-Destination f\u00fcr Progressive-Design orientierten Architekten, Studenten, Ausbilder und Fans werden.",
+        "language": "de"
+    },
+    "https://www.detail.de/": {
+        "name": "detail.de",
+        "id": 156495,
+        "type": "Site",
+        "description": "DETAIL ist die internationale Zeitschrift f\u00fcr Architektur und Baudetail und behandelt in jedem Heft ein besonderes Konstruktionsthema. Dabei steht die Qualit\u00e4t des konstruktiven Details im Vordergrund. Zeichnungen mit vergleichbaren Ma\u00dfst\u00e4ben und hochwertige Fotografien veranschaulichen die aktuellen Beispiele aus dem In- und Ausland.",
+        "language": "de"
+    },
+    "https://architekturvideo.de/": {
+        "name": "architekturvideo.de",
+        "id": 156496,
+        "type": "Site",
+        "description": "architekturvideo.de ist das erste Architektur-Blog f\u00fcr Videos: Seit 2007 zeige ich hier Architektur-Filme sowie Videos \u00fcber Stadt\u00adplanung und Immo\u00adbilien.",
+        "language": "de"
+    },
+    "https://www.baunetz.de/": {
+        "name": "baunetz.de",
+        "id": 156497,
+        "type": "Site",
+        "description": "Architektur-News t\u00e4glich aktuell, Architekten-Ranking, B\u00fcroprofile, Interviews, Wettbewerbe, Jobs. Das gr\u00f6\u00dfte deutsche Architektur-Portal mit internationaler Berichterstattung f\u00fcr Architekten und Planer.",
+        "language": "de"
+    },
+    "https://www.architektur-studieren.info/": {
+        "name": "architektur-studieren.info",
+        "id": 156498,
+        "type": "Site",
+        "description": "Unabh\u00e4ngiger und pers\u00f6nlicher Blog mit praktischen Tipps + Infos f\u00fcr all jene, die entspannt und erfolgreich ihr Architekturstudium absolvieren m\u00f6chten. Hilfreiche Tipps & zuverl\u00e4ssige Informationen f\u00fcr all jene, die entspannt & erfolgreich Architektur studieren m\u00f6chten. \u2665 Architekturstudium & Beruf Architekt*in",
+        "language": "de"
+    },
+    "http://archimag.de/": {
+        "name": "archimag.de",
+        "id": 156499,
+        "type": "Site",
+        "description": "es geht um Architektur und Architekten Sch\u00f6n das Du da bist. Mit archimag.de m\u00f6chte ich Dir einen Einblick in die Welt der Architektur geben. Hierbei geht es aber nicht um die gro\u00dfen Opernh\u00e4user und Wolkenkratzer. \u00dcber diese hast Du bestimmt schon genug von Anderen geh\u00f6rt. Ich m\u00f6chte Dir mit \u201earchimag.de \u2013 dem Architekturmagazin im Netz\u201c H\u00e4user, die es in jeder Nachbarschaft gibt, vorstellen. Die Objekte, die man in der Stadt kaum wahrnimmt und auch bei einem Spaziergang \u00fcbersehen kann, die aber ein gutes Design bieten oder auch nur ein au\u00dfergew\u00f6hnliches Element haben. Ich nenne diese H\u00e4user Perlen der Alltagsarchitektur und sie sind einen genauen Blick wert. Komm herein und sehe Dich um, entdecke diese Perlen (Bereich: Vorgestellt). Dazu stelle ich Dir auch noch die Architekten hinter diesen H\u00e4usern vor (Bereich: 11Fragen) und biete Dir weitere interessante Nachrichten aus dem Bereich Architektur und Design.",
+        "language": "de"
+    },
+    "https://www.baumeister.de/": {
+        "name": "baumeister.de",
+        "id": 156500,
+        "type": "Site",
+        "description": "Baumeister ist die deutsche Fachzeitschrift f\u00fcr Architektur, Planen, Baukonstruktion, nachhaltigem Bauen, St\u00e4dtebau und Design.",
+        "language": "de"
+    },
+    "https://internet-fuer-architekten.de/": {
+        "name": "internet-fuer-architekten.de",
+        "id": 156501,
+        "type": "Site",
+        "description": "Das unabh\u00e4ngige Online-Magazin zu Marketing, Webdesign, Social Media und B\u00fcrokommunikation f\u00fcr Architekten und Ingenieure.",
+        "language": "de"
+    },
+    "https://www.personal-wissen.de/": {
+        "name": "personal-wissen.de",
+        "id": 156502,
+        "type": "Site",
+        "description": "Die neuesten Artikel auf Personal-Wissen.de         Die wichtigsten Unterlagen f\u00fcr Ihre Personalarbeit  \nThemenschwerpunkt Arbeitsrecht\nRund um das Gebiet der Arbeitsvertr\u00e4ge und Arbeitsgerichte gibt es zahllose Fallstricke und Problemfelder. Das ist eine gro\u00dfe",
+        "language": "de"
+    },
+    "https://www.humanresourcesmanager.de": {
+        "name": "humanresourcesmanager.de",
+        "id": 156503,
+        "type": "Site",
+        "description": "Der HUMAN RESOURCES MANAGER \u2013 das Fachmagazin rund um die zentralen Themen des Personalmanagements wie Recruiting, F\u00fchrung und Personalentwicklung.",
+        "language": "de"
+    },
+    "https://www.haufe.de": {
+        "name": "haufe.de",
+        "id": 156504,
+        "type": "Site",
+        "description": "Das Personal-Portal bietet Ihnen aktuelle News, Fachwissen, Newsletter und Arbeitshilfen zu Personalarbeit, Talent Management und Bewerbermanagement.\nHaufe unterst\u00fctzt Mitarbeiter und Unternehmen auch in herausfordernden Zeiten mit Wissen, Tools und L\u00f6sungen.",
+        "language": "de"
+    },
+    "https://wirtschaftslexikon.gabler.de/": {
+        "name": "wirtschaftslexikon.gabler.de",
+        "id": 156505,
+        "type": "Site",
+        "description": "Gabler Wirtschaftslexikon Online \u00bb25.000 Definitionen \u00bb200 renommierte Experten \u00bbAls Online-Lexikon vollst\u00e4ndig gratis. \u00bbQualit\u00e4tsgepr\u00fcft seit 1956",
+        "language": "de"
+    },
+    "http://www.personalkaufmann.com/": {
+        "name": "personalkaufmann.com",
+        "id": 156506,
+        "type": "Site",
+        "description": "Personalfachkaufleute \u00fcbernehmen leitende und verantwortungsvolle Aufgaben. Die Weiterbildung erm\u00f6glicht Dir, auf der Karriereleiter aufzusteigen.",
+        "language": "de"
+    },
+    "https://www.personalwerk.de/": {
+        "name": "personalwerk.de",
+        "id": 156507,
+        "type": "Site",
+        "description": "Ihre Agentur f\u00fcr Personalmarketing, Stellenanzeigenschaltung, Personaberatung &amp; E-Recruiting - Personalwerk",
+        "language": "de"
+    },
+    "https://arbeitsrecht.online/": {
+        "name": "arbeitsrecht.online",
+        "id": 156508,
+        "type": "Site",
+        "description": "Dr. Hubert Menken erkl\u00e4rt leicht verst\u00e4ndlich die f\u00fcr Arbeitnehmer wichtigsten Themen, beantwortet die h\u00e4ufigsten Fragen und gibt viele Tipps und Ratschl\u00e4ge",
+        "language": "de"
+    },
+    "https://efarbeitsrecht.net/": {
+        "name": "efarbeitsrecht.net",
+        "id": 156509,
+        "type": "Site",
+        "description": "Expertenforum Arbeitsrecht - EFAR: Der f\u00fchrende und innovative Metablog zum Arbeitsrecht mit EFAR-Services rund um Jobs f\u00fcr Arbeitsrechtler und vieles mehr.",
+        "language": "de"
+    },
+    "https://www.personalwirtschaft.de/": {
+        "name": "personalwirtschaft.de",
+        "id": 156510,
+        "type": "Site",
+        "description": "Auf personalwirtschaft.de finden Sie aktuelle News, Fachliteratur, Definitionen und Arbeitshilfen zu Recruiting, F\u00fchrung, Personalmanagement, Personalentwicklung, duale Berufsausbildung, HR-Organisation, Arbeitsrecht und Verg\u00fctung. Neue Stellenangebote finden Sie zudem im Personalwirtschaft Stellenmarkt.",
+        "language": "de"
+    },
+    "https://www.hrworks-personalwerk.de/": {
+        "name": "hrworks-personalwerk.de",
+        "id": 156511,
+        "type": "Site",
+        "description": "hr works_personalwerk - Thomas Batsching - bietet Ihnen konkrete Unterst\u00fctzung und Beratung bei internationalen Personalthemen.",
+        "language": "de"
+    },
+    "https://vertriebszeitung.de/": {
+        "name": "vertriebszeitung.de",
+        "id": 156512,
+        "type": "Site",
+        "description": "Die Vertriebszeitung - Brandaktuelle Infos zu allen wichtigen Themen wie Akquise & Kundenbindung, Verkaufsmanagement & Digitalisierung, F\u00fchrung & Karriere.",
+        "language": "de"
+    },
+    "https://www.vertrieb.jobs/": {
+        "name": "vertrieb.jobs",
+        "id": 156513,
+        "type": "Site",
+        "description": "Aktuelle Vertrieb Jobangebote auf VERTRIEB.JOBS",
+        "language": "de"
+    },
+    "https://www.vertriebs-jobs.de/": {
+        "name": "vertriebs-jobs.de",
+        "id": 156514,
+        "type": "Site",
+        "description": "T\u00e4glich aktuelle Jobs im Vertrieb auf vertriebs-jobs.de. Finden Sie Stellenangebote und Jobs im Vertrieb und Verkauf auf vertriebs-jobs.de.",
+        "language": "de"
+    },
+    "http://vertriebskarriere.de/": {
+        "name": "vertriebskarriere.de",
+        "id": 156515,
+        "type": "Site",
+        "description": "Vertriebskarriere - Das Fachportal f\u00fcr Jobs im Vertrieb",
+        "language": "de"
+    },
+    "https://www.digital-sales.de/": {
+        "name": "digital-sales.de",
+        "id": 156516,
+        "type": "Site",
+        "description": "Vertrieb gesucht? | Der Vertrieb im Detail. Alles zum Vertrieb & Verkauf hier: \u2713Definitionen \u2713Tipps &amp; Tricks \u2713B\u00fccher \u2713Veranstaltungen \u2713News \u25ba mehr erfahren",
+        "language": "de"
+    },
+    "https://www.youtube.com/channel/UCZHkaJW1DZh0nGkMcDsV0aw": {
+        "name": "Carsten Beyreuther Verkaufstrainer, Speaker, Coach",
+        "id": 156517,
+        "type": "YouTube channel",
+        "description": "BEYREUTHER-TRAINING: Die einzig staatlich zugelassene Premium-Ausbildung f\u00fcr Elite-Verk\u00e4ufer!\n\nAuf diesem Kanal findest du knapp 1.000 kostenfreie Lernvideos. Sie liefern dir einen kleinen Einblick in unsere Einsteiger-Verkaufsausbildung. In unserer Premium-Ausbildung jedoch erlernst du mehr als 150 zus\u00e4tzliche, auf diesem Kanal nicht ver\u00f6ffentlichte, Verkaufs-, Verhandlungs- und \u00dcberzeugungstechniken f\u00fcr herausragende Erfolge auf den Gebieten der Neukundengewinnung, Verkaufsgespr\u00e4chsf\u00fchrung und Einwandbehandlung.\n\n\u25ba Direkter Kontakt zu unserem Sales-Team:\n\nTelefon-Hotline: +49.30.403.683-555 (deutschsprachig)\nE-Mail: anfrage@beyreuther.com\n\n\u25ba Direkter Kontakt zu unserem Support-Team:\n\nTelefon-Hotline: +49.30.948.520-896 (deutschsprachig)\nE-Mail: support@teambeyreuther.com",
+        "language": "de"
+    },
+    "https://www.sale-direct.de/": {
+        "name": "sale-direct.de",
+        "id": 156518,
+        "type": "Site",
+        "description": "Herzlich Willkommen bei SALE DIRECT und SALES-Consulting Holger Steitz Unser Anliegen ist es, Ihr Unternehmen erfolgreicher zu machen! Egal, ob Sie ein weltweit t\u00e4tiger Konzern, ein gestandenes mittelst\u00e4ndisches Unternehmen oder eine One-WoMan-Show sind. Sofern Sie erkl\u00e4rungsbed\u00fcrftige Produkte und Dienstleistungen anbieten, sind Weiterlesen.",
+        "language": "de"
+    },
+    "https://www.salesforce.com/de/?ir=1": {
+        "name": "salesforce.com",
+        "id": 156519,
+        "type": "Site",
+        "description": "Cloud-basierte CRM L\u00f6sungen f\u00fcr Vertrieb, Kundenservice &amp; Marketing von Salesforce, dem f\u00fchrenden CRM Software Anbieter. Mehr als 100.000 erfolgreiche Kunden!",
+        "language": "de"
+    },
+    "https://www.vertriebler-stellen.de/": {
+        "name": "vertriebler-stellen.de",
+        "id": 156520,
+        "type": "Site",
+        "description": "Finden Sie jetzt Ihren Traumjob als Verk\u00e4ufer & Vertriebler",
+        "language": "de"
+    },
+    "https://www.salesjob.de/": {
+        "name": "salesjob.de",
+        "id": 156521,
+        "type": "Site",
+        "description": "Jobb\u00f6rse f\u00fcr Vertrieb Jobs \u2192 Deutschlandweite Stellenangebote f\u00fcr Fach- und F\u00fchrungskr\u00e4fte im Sales. \u27a4 Starten Sie jetzt mit Ihrer Vertriebskarriere durch!",
+        "language": "de"
+    },
+    "https://www.verkaufshilfe.net/": {
+        "name": "verkaufshilfe.net",
+        "id": 156522,
+        "type": "Site",
+        "description": "Green Sales in der Praxis Weniger (Aktionismus) ist mehr! 7 Erfolgsfaktoren bei der Vertriebssteuerung inklusive 11 Selbstcoaching-Fragen zur Optimierung Ihrer Vertriebswege Verkaufen in Krisenzeiten: 5...",
+        "language": "de"
+    },
+    "https://www.vertriebsacademie.de/": {
+        "name": "vertriebsacademie.de",
+        "id": 156523,
+        "type": "Site",
+        "description": "Ihr Partner f\u00fcr Vertriebstraining f\u00fcr Vertriebsinnen- und Au\u00dfendienst, Kommunikationstraining f\u00fcr Fach- und F\u00fchrungskr\u00e4fte. Inhouse Seminare, Training, Coaching, Beratung.",
+        "language": "de"
+    },
+    "https://www.youtube.com/channel/UCtAZDzzAsHXDxZjV-1THFsA": {
+        "name": "Ingo Vogel Seminare",
+        "id": 156524,
+        "type": "YouTube channel",
+        "description": "Tolle Rhetorik-/Verkaufstipps von Verkaufstrainer, Bestsellerautor und Speaker Ingo Vogel - Experte f\u00fcr Emotionales Verkaufen! Mehr unter www.ingovogel.de",
+        "language": "de"
+    },
+    "https://www.youtube.com/channel/UCyu7BKQRTG5taojc2DwuJcw": {
+        "name": "Oliver Schumacher - Dein Verkaufstrainer",
+        "id": 156525,
+        "type": "YouTube channel",
+        "description": "Als bodenst\u00e4ndiger Verkaufstrainer gebe ich Dir auf meinem YouTube-Kanal konkrete Tipps aus meinen Verkaufstrainings und meinen Vortr\u00e4gen. Mir ist es wichtig, f\u00fcr Dich relevant zu sein. Darum bringe ich meine Verkaufstipps schnell auf den Punkt. Wer also verkaufen lernen will, Tipps f\u00fcr mehr Umsatz sucht - oder einfach eine regelm\u00e4\u00dfige Inspiration f\u00fcr seine Neukundengewinnung oder Preisverhandlung sucht, der ist hier richtig.\n\nAls Verkaufstrainer und Redner zu den Themen Verkauf und Vertrieb bin ich seit 2009 t\u00e4tig. Wenn Du Interesse an einem Training mit mir hast, oder einen Vortrag f\u00fcr Deine Mitarbeiter oder Deine Kunden m\u00f6chtest, dann schreibe mir doch einfach:\nhttps://oliver-schumacher.de/kontakt/",
+        "language": "de"
+    },
+    "https://www.absatzwirtschaft.de/": {
+        "name": "absatzwirtschaft.de",
+        "id": 156526,
+        "type": "Site",
+        "description": "absatzwirtschaft ist eine der st\u00e4rksten Monatszeitschriften f\u00fcr Marketing und Vertrieb. Sie begleitet die Entwicklung des modernen Sales & Marketing",
+        "language": "de"
+    },
+    "http://www.kiga-finkenschlag.stmartin-fuerth.de/": {
+        "name": "kiga-finkenschlag.stmartin-fuerth.de",
+        "id": 156527,
+        "type": "Site",
+        "description": "Entdecken Sie den Kindergarten Finkenschlag in F\u00fcrth. Ausgezeichnetes Konzept und optimale Betreuung.",
+        "language": "de"
+    },
+    "https://www.erzieherin.de": {
+        "name": "erzieherin.de",
+        "id": 156528,
+        "type": "Site",
+        "description": "Das Fachportal  richtet sich an p\u00e4dagogische Fachkr\u00e4fte, Tr\u00e4ger von Einrichtungen, Politik, Verwaltung und alle weiteren Akteure im Feld der Fr\u00fchp\u00e4dagogik.",
+        "language": "de"
+    },
+    "https://kindergartenpaedagogik.de/": {
+        "name": "kindergartenpaedagogik.de",
+        "id": 156529,
+        "type": "Site",
+        "description": "Mehr als 1.300 Fachartikel und rund 1.000 kommentierte Buchhinweise zu allen Fragen rund um Kindergarten und Kita.",
+        "language": "de"
+    },
+    "https://erzieher-suhl.de/": {
+        "name": "erzieher-suhl.de",
+        "id": 156530,
+        "type": "Site",
+        "description": "Freuen Sie sich auf eine praxisnahe Erzieher-Ausbildung & hervorragende Chancen auf einen Arbeitsplatz direkt nach Ihrem Abschluss: Jetzt bewerben \u27a4",
+        "language": "de"
+    },
+    "https://www.zukunftsberuf-erzieher.de/": {
+        "name": "zukunftsberuf-erzieher.de",
+        "id": 156531,
+        "type": "Site",
+        "description": "Zukunftsberuf Erzieher. Der Boys\u2019Day stellt Jungen und jungen M\u00e4nnern den Beruf Erzieher vor.",
+        "language": "de"
+    },
+    "https://erzieher-werden-in-berlin.de/": {
+        "name": "erzieher-werden-in-berlin.de",
+        "id": 156532,
+        "type": "Site",
+        "description": "Erzieher*in werden in Berlin &#8211; Wege in den Beruf Kinder sind phantasievoll, \u00fcberraschend, neugierig, leise, laut, manchmal traurig, sauer, meistens fr\u00f6hlich, vertr\u00e4umt, verspielt \u2026 Kinder toben, singen, basteln, bauen, tanzen, fragen, antworten \u2026 Kinder k\u00f6nnen alles (sein). Wer sich f\u00fcr den Erzieherberuf entscheidet, w\u00e4hlt eine spannende, bunte und abwechlsungsreiche T\u00e4tigkeit. Sie fordert heraus, ist anspruchsvoll &hellip;",
+        "language": "de"
+    },
+    "https://kindheiterleben.de/": {
+        "name": "kindheiterleben.de",
+        "id": 156533,
+        "type": "Site",
+        "description": "Kindheiterleben ist ein Online-Magazin f\u00fcr Eltern und p\u00e4dagogischen Fachkr\u00e4ften. Ich m\u00f6chte dich inspirieren einen bed\u00fcrfnisorientierten Weg zu gehen.",
+        "language": "de"
+    },
+    "https://www.kindererziehung.com": {
+        "name": "kindererziehung.com",
+        "id": 156534,
+        "type": "Site",
+        "description": "Kindererziehung.com bietet Tipps f\u00fcr Eltern zur Erziehung Ihrer Kinder. Die Erziehungsstile, Entwicklung und Alternativen wie z.B. Heilp\u00e4dagogik werden vorgestellt.",
+        "language": "de"
+    },
+    "https://www.klett-kita.de/": {
+        "name": "klett-kita.de",
+        "id": 156535,
+        "type": "Site",
+        "description": "Willkommen bei den Klett Kita Fachverlagen Bei uns finden ErzieherInnen, Kita-Leitungen, U3- ErzieherInnen und Tageseltern alles f\u00fcr ihre berufliche",
+        "language": "de"
+    },
+    "https://www.mein-kitaleben.de/": {
+        "name": "mein-kitaleben.de",
+        "id": 156536,
+        "type": "Site",
+        "description": "Der Blog f\u00fcr Erzieher*innen und Tageseltern. Gute Nachrichten Mehr gute Nachrichten. Tipp der Redaktion Neueste Praxisideen Neueste Ratgeber",
+        "language": "de"
+    },
+    "https://www.kinderzeit.de/": {
+        "name": "kinderzeit.de",
+        "id": 156537,
+        "type": "Site",
+        "description": "Interessantes und Wissensvertes rund um das p\u00e4dagogische Arbeitsumfeld",
+        "language": "de"
+    },
+    "https://www.forum-fuer-erzieher.de/": {
+        "name": "forum-fuer-erzieher.de",
+        "id": 156538,
+        "type": "Site",
+        "description": "Informationen und Ideen austauschen, Hilfestellungen und Anregungen geben und finden, Austausch zwischen Eltern und Erzieher/-innen, Kontakte kn\u00fcpfen, Wissen teilen",
+        "language": "de"
+    },
+    "https://www.fachportal-paedagogik.de/": {
+        "name": "fachportal-paedagogik.de",
+        "id": 156539,
+        "type": "Site",
+        "description": "Der zentrale Einstieg in die wissenschaftliche Fachinformation f\u00fcr Bildungsforschung, Erziehungswissenschaft und Fachdidaktik. Im Mittelpunkt des Informationsdienstes stehen Literaturdatenbanken, Forschungsdatenquellen sowie strukturierte Informationen zu verschiedenen Themen. Ein Angebot des Informationszentrums Bildung am DIPF | Leibniz-Institut f\u00fcr Bildungsforschung und Bildungsinformation, Frankfurt am Main.",
+        "language": "de"
+    },
+    "http://kitaideenkiste.blogspot.com/": {
+        "name": "kitaideenkiste.blogspot.com",
+        "id": 156540,
+        "type": "Site",
+        "description": "Liebe Eltern, ErzieherInnen und alle Besucher, die sich f\u00fcr Kinder im KitaAlter interessieren. Hier geht es um kreative Ideen, die Kindern im KitaAlter Spa\u00df machen. Experimente, Lerntabletts und p\u00e4dagogische Fragen haben hier ihren Platz. Als Mutter von zwei Kindern und Erzieherin m\u00f6chte ich mit meinen Beitr\u00e4gen Eltern und p\u00e4dagogische Fachkr\u00e4fte inspirieren und nat\u00fcrlich ermutigen auch mal \u00fcber den eigenen Tellerrand zu schauen.",
+        "language": "de"
+    },
+    "https://erzieherblogblog.wordpress.com/": {
+        "name": "erzieherblogblog.wordpress.com",
+        "id": 156541,
+        "type": "Site",
+        "description": "Der Blog f\u00fcr starke Erzieher",
+        "language": "de"
+    },
+    "http://www.bankazubi.de/": {
+        "name": "bankazubi.de",
+        "id": 156542,
+        "type": "Site",
+        "description": "Wissenspool zum Thema Bankausbildung. Community f&uuml;r Bankazubis. Interessante Fachliteratur und Linktipps.",
+        "language": "de"
+    },
+    "http://www.bankkaufmann-blog.com/": {
+        "name": "bankkaufmann-blog.com",
+        "id": 156543,
+        "type": "Site",
+        "description": "Das neue Internetportal f\u00fcr alle Mitarbeiter aus dem Bank- und Finanzbereich",
+        "language": "de"
+    },
+    "https://www.der-bank-blog.de/": {
+        "name": "der-bank-blog.de",
+        "id": 156544,
+        "type": "Site",
+        "description": "Trends f\u00fcr Banken und Sparkassen wie Digitalisierung, Innovation, Social Media, Kundenservice, Strategie und anderen Managementthemen.",
+        "language": "de"
+    },
+    "http://www.financial-career.de/": {
+        "name": "financial-career.de",
+        "id": 156545,
+        "type": "Site",
+        "description": "Financial Career ist eine Bildungsplattform f\u00fcr Sch\u00fcler, Azubis, Studenten und Professionals und bietet umfassende Informationen zu Studium & Fortbildung",
+        "language": "de"
+    },
+    "www.bankkaufmann.com": {
+        "name": "bankkaufmann.com",
+        "id": 156546,
+        "type": "Site",
+        "description": "Informationsportal mit aktuellen Wirtschaftsnews zum Beruf Bankkaufmann/Bankkauffrau",
+        "language": "de"
+    },
+    "https://finanz-szene.de/": {
+        "name": "finanz-szene.de",
+        "id": 156547,
+        "type": "Site",
+        "description": "Die Top-Stories der deutschen Banken-und Fintech-Szene, News und Analysen aus dem kostenlosen morgendlichen Newsletter von Finanz-Szene.de",
+        "language": "de"
+    },
+    "https://bankstil.de/": {
+        "name": "bankstil.de",
+        "id": 156548,
+        "type": "Site",
+        "description": "Blog, Informationsdienst und Wissensdatenbank zum Stilwandel im Banking",
+        "language": "de"
+    },
+    "https://www.fondsprofessionell.de/": {
+        "name": "fondsprofessionell.de",
+        "id": 156549,
+        "type": "Site",
+        "description": "Aktuelle Nachrichten, Kurse, Charts und s&auml;mtliche Informationen zu Investmentfonds. Fondsvergleich, Factsheets, Watchlist, Portfolio, Kursalarm und vieles mehr.",
+        "language": "de"
+    },
+    "https://www.it-finanzmagazin.de/": {
+        "name": "it-finanzmagazin.de",
+        "id": 156550,
+        "type": "Site",
+        "description": "Das Fachmagazin f\u00fcr IT und Organisation bei Banken, Sparkassen und Versicherungen",
+        "language": "de"
+    },
+    "anleihencheck.de": {
+        "name": "anleihencheck.de",
+        "id": 156551,
+        "type": "Site",
+        "description": "Anleihen | Anleihenkurse | Analysen + News | B\u00f6rse | Termine | anleihencheck.de",
+        "language": "de"
+    },
+    "https://www.bankpower.de/": {
+        "name": "bankpower.de",
+        "id": 156552,
+        "type": "Site",
+        "description": "Als Top Personaldienstleister der Bank-, Versicherungs- &amp; Finanzwirtschaft bieten wir Personalberatung, Personalvermittlung &amp; HR-Solutions auf h\u00f6chstem Niveau",
+        "language": "de"
+    }
+}
