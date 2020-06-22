@@ -41,6 +41,14 @@ for job in validation_set.keys():
         if example_id in validation_set[job]:
             validation_set[job].remove(example_id)
 
+used_data = {}
+with open('placement_to_jobtitle_classifier_normalized_examples_trainfile_2.json') as data_path:
+    data = json.load(data_path)
+    used_data = data
+
+# with open('../unique_placements_dataset.json','w') as file_path:
+#     json.dump(ids_to_placement_dict,file_path,indent=4)
+
 job_to_label_dict = {
     'Software-Entwickler':'None',
     'Elektrotechniker':'Elektrotechniker',
@@ -55,43 +63,45 @@ job_to_label_dict = {
     'Vertriebsmitarbeiter':'Vertriebsmitarbeiter'
 } 
 
-# with open('../Starspace/datasets/test_unseen_examples_from_same_categories_with_none.txt','w') as output:
+# with open('../Starspace/datasets/placement_to_jobtitle_classifier_normalized_examples_testfile_2.txt','w') as output:
 #     for job, val_set in validation_set.items():
-#         if job in ['Elektrotechniker','Vertriebsmitarbeiter','Erzieher','Busfahrer']:
-#             for example_id in val_set:
+#         for example_id in val_set:
+#             if example_id not in used_data.keys():
 #                 placement = ids_to_placement_dict[example_id]
 #                 output.write(clean_description(placement['description'])[0] + ' __jobtitle__' + job_to_label_dict[job] + "\n")
 
-with open('../Starspace/datasets/placement_to_jobtitle_classifier_normalized_examples_trainfile.txt','w') as output:
-    labeled_data_dict = {}
-    for example in labeled_data:
-        example_id = example['meta']['id']
-        answer = example['answer']
-        # print(answer)
-        if answer == 'accept':
-            tag = example['accept']
-            if len(tag):
-                label = tag[0]
-                labeled_data_dict[example_id] = {
-                    'name':ids_to_placement_dict[example_id]['name'],
-                    'description':ids_to_placement_dict[example_id]['description'],
-                    'label':label
-                }
-            else:
-                labeled_data_dict[example_id] = {
-                    'name':ids_to_placement_dict[example_id]['name'],
-                    'description':ids_to_placement_dict[example_id]['description'],
-                    'label':'None'
-                }
-                output.write(clean_description(example['text'])[0] + " __jobtitle__" + str(label) + "\n")
-        elif answer == 'reject':
-            # output.write(clean_description(example['text'])[0] + " __jobtitle__None\n")
-            pass
-    for example_id in validation_set['Busfahrer']:
-        example = ids_to_placement_dict[example_id]
-        output.write(clean_description(example['description'])[0] + " __jobtitle__None\n")
+# with open('../Starspace/datasets/placement_to_jobtitle_classifier_normalized_examples_trainfile_2.txt','w') as output:
+#     labeled_data_dict = {}
+#     for example in labeled_data:
+#         example_id = example['meta']['id']
+#         answer = example['answer']
+#         # print(answer)
+#         if answer == 'accept':
+#             tag = example['accept']
+#             if len(tag):
+#                 label = tag[0]
+#                 labeled_data_dict[example_id] = {
+#                     'name':ids_to_placement_dict[example_id]['name'],
+#                     'description':ids_to_placement_dict[example_id]['description'],
+#                     'label':label
+#                 }
+#                 output.write(clean_description(example['text'])[0] + " __jobtitle__" + str(label) + "\n")
+#         elif answer == 'reject':
+#             # output.write(clean_description(example['text'])[0] + " __jobtitle__None\n")
+#             pass
+#     for job in [k for k, v in job_to_label_dict.items() if v == 'None']:
+#         for example_id in validation_set[job][:4]:
+#             example = ids_to_placement_dict[example_id]
+#             output.write(clean_description(example['description'])[0] + " __jobtitle__None\n")
+#             labeled_data_dict[example_id] = {
+#                 'name':ids_to_placement_dict[example_id]['name'],
+#                 'description':ids_to_placement_dict[example_id]['description'],
+#                 'label':'None'
+#             }
 
-data = pd.DataFrame.from_dict(labeled_data_dict).T
+# data = pd.DataFrame.from_dict(labeled_data_dict).T
 
-print(data)
-print(data['label'].value_counts())
+# print(data)
+# print(data['label'].value_counts())
+
+# data.to_json("placement_to_jobtitle_classifier_normalized_examples_trainfile_2.json",indent=2,orient='index')
