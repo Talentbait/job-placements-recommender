@@ -13,10 +13,10 @@ class PythonPredictor:
 
     def predict(self,payload):
         print(f"Getting predictions for {payload}")
-        self.child.sendline(payload)
+        self.child.sendline(payload.encode("utf-8"))
         self.child.expect(payload)
         self.child.expect(f"Enter some text:")
         output = self.child.before.decode("utf-8")
-        # print(output)
+        print(output)
         return output
 

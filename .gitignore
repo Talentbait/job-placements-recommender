@@ -18,4 +18,5 @@ Starspace/*.tsv
 Starspace/datasets
 Starspace/__pycache__
 format_data/__pycache__
-format_data/replacement_counts*.json
+format_data/replacement_counts*
+Starspace/predictions*
