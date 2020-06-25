@@ -29,7 +29,7 @@ def get_mean_rank(validation_set,recommendations):
             rank_sum = rank_sum + recommendations_rank_dict[val_example]
             count = count + 1
     
-    mean_rank = rank_sum/count
+    mean_rank = rank_sum/count if rank_sum > 0 else 0
 
     return mean_rank
 

@@ -41,10 +41,10 @@
 ############## To paste in CL ##############
 
 
-./query_predict_id_to_file models/tab_separated_descriptions_spaced_v02_extended 9086 datasets/tab_separated_descriptions_spaced_v02_extended.txt < extended_default_jobs.txt > datasets/default_recommendations_v02_extended.txt
+./query_predict_id_to_file models/tab_separated_descriptions_spaced_v03 9086 datasets/tab_separated_descriptions_spaced_v02_extended.txt < extended_default_jobs.txt > datasets/default_recommendations_v03.txt
 
-sed -i '' '1,35d' datasets/default_recommendations_v02_extended.txt
+sed -i '' '1,35d' datasets/default_recommendations_v03.txt
 
-# ./embed_doc_file models/tab_separated_descriptions_spaced_v02_extended datasets/tab_separated_descriptions_spaced_v02_extended.txt > models/placements_vectors_trainMode2_v02_extended.tsv
+./embed_doc_file models/tab_separated_descriptions_spaced_v03 datasets/tab_separated_descriptions_spaced_v02_extended.txt > models/placements_vectors_trainMode2_v03.tsv
 
-# sed -i '' '1,3d' models/placements_vectors_trainMode2_v02_extended.tsv
+sed -i '' '1,3d' models/placements_vectors_trainMode2_v03.tsv

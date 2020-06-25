@@ -10,20 +10,20 @@ def get_validation_set():
 
 def get_ids_to_placement_dict():
     unique_placements = {}
-    with open('../unique_placements_updated.json') as json_file:
+    with open('../placement_pipeline_status_v01.json') as json_file:
         unique_placements = json.load(json_file)
-    ids_to_placement_dict = {}
-    for k, v in unique_placements.items():
-        if 'language' in v:
-            if v['language'] == 'de':
-                ids_to_placement_dict[v['id']] = {
-                    'name':v['name'],
-                    'type':v['type'],
-                    'url':k,
-                    'description':v['description'],
-                    'language':v['language']
-                }
-    return ids_to_placement_dict
+    # ids_to_placement_dict = {}
+    # for k, v in unique_placements.items():
+    #     if 'language' in v:
+    #         if v['language'] == 'de':
+    #             ids_to_placement_dict[v['id']] = {
+    #                 'name':v['name'],
+    #                 'type':v['type'],
+    #                 'url':k,
+    #                 'description':v['description'],
+    #                 'language':v['language']
+    #             }
+    return unique_placements
 
 ids_to_placement_dict = get_ids_to_placement_dict()
 
@@ -70,20 +70,20 @@ job_to_label_dict = {
     'Vertriebsmitarbeiter':'Vertriebsmitarbeiter'
 } 
 
-labeled_data_dict = {}
-with open('../Starspace/datasets/placement_to_jobtitle_classifier_normalized_examples_testfile_4.txt','w') as output:
-    for job, val_set in validation_set.items():
-        for example_id in val_set:
-            if example_id not in used_data.keys() and job not in ['Bankkaufmann','Personalreferent','Software-Entwickler','Auszubildende']:
-                placement = ids_to_placement_dict[example_id]
-                output.write(clean_description(placement['description'])[0] + ' __jobtitle__' + labels_dict[job_to_label_dict[job]] + "\n")
-                labeled_data_dict[example_id] = {
-                    'name':ids_to_placement_dict[example_id]['name'],
-                    'description':ids_to_placement_dict[example_id]['description'],
-                    'label':job_to_label_dict[job]
-                }
+# labeled_data_dict = {}
+# with open('../Starspace/datasets/testfile_jobtitle_classifier_v01_5.txt','w') as output:
+#     for job, val_set in validation_set.items():
+#         for example_id in val_set:
+#             if example_id not in used_data.keys() and job not in ['Bankkaufmann','Personalreferent','Software-Entwickler','Auszubildende']:
+#                 placement = ids_to_placement_dict[example_id]
+#                 output.write(clean_description(placement['description'])[0] + ' __jobtitle__' + job_to_label_dict[job] + "\n")
+#                 labeled_data_dict[example_id] = {
+#                     'name':ids_to_placement_dict[example_id]['name'],
+#                     'description':ids_to_placement_dict[example_id]['description'],
+#                     'label':job_to_label_dict[job]
+#                 }
 
-# with open('../Starspace/datasets/placement_to_jobtitle_classifier_normalized_examples_trainfile_4.txt','w') as output:
+# with open('../Starspace/datasets/trainfile_jobtitle_classifier_v02.txt','w') as output:
 #     labeled_data_dict = {}
 #     for example in labeled_data:
 #         example_id = example['meta']['id']
@@ -98,17 +98,48 @@ with open('../Starspace/datasets/placement_to_jobtitle_classifier_normalized_exa
 #                     'description':ids_to_placement_dict[example_id]['description'],
 #                     'label':label
 #                 }
-#                 output.write(clean_description(example['text'])[0] + " " + labels_dict[label] + "\n")
+#                 output.write(clean_description(example['text'])[0] + " __jobtitle__" + label + "\n")
 #     for job in [k for k, v in job_to_label_dict.items() if v == 'None']:
 #         for example_id in validation_set[job][:4]:
 #             example = ids_to_placement_dict[example_id]
-#             output.write(clean_description(example['description'])[0] + " " + labels_dict['None'] + "\n")
+#             output.write(clean_description(example['description'])[0] + " __jobtitle__None\n")
 #             labeled_data_dict[example_id] = {
 #                 'name':ids_to_placement_dict[example_id]['name'],
 #                 'description':ids_to_placement_dict[example_id]['description'],
 #                 'label':'None'
 #             }
 
+with open('../Starspace/datasets/trainfile_useful_placements_classifier.txt','w') as output:
+    labeled_data_dict = {}
+    descriptions_examples = {}
+    for placement_id, placement_info in ids_to_placement_dict.items():
+        if 'classified' in placement_info:
+            description = placement_info['description']
+            labeled_data_dict[placement_id] = {
+                'name':placement_info['name'],
+                'description':description
+            }
+            if 'label' in placement_info:
+                label = placement_info['label']
+                labeled_data_dict[placement_id]['label'] = "useful"
+                output.write(clean_description(description)[0] + " __label__useful\n")
+            else:
+                labeled_data_dict[placement_id]['label'] = "dump"
+                output.write(clean_description(description)[0] + " __label__dump\n")
+    # for job in [k for k, v in job_to_label_dict.items() if v == 'None']:
+    #     for placement_info_id in validation_set[job][:4]:
+    #         placement_info = placement_info
+    #         output.write(clean_description(placement_info['description'])[0] + " __jobtitle__None\n")
+    #         labeled_data_dict[example_id] = {
+    #             'name':placement_info['name'],
+    #             'description':placement_info['description'],
+    #             'label':'None'
+    #         }
+    for job_title, descriptions_list in descriptions_examples.items():
+        print(job_title)
+        output.write("\t".join([clean_description(a)[0].replace("\t"," ") for a in descriptions_list]) + "\n")
+
+        
 data = pd.DataFrame.from_dict(labeled_data_dict).T
 
 print(data)

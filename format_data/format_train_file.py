@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
 import random
-from pathlib import Path
-import pandas as pd
 from tqdm import tqdm
 import numpy as np
 import re
@@ -34,6 +32,7 @@ def clean_description(description):
     replacements['uppercase_words'] = len(re.findall(r"\b\S*[A-ZÖÄÜ]\S*\b",description))        # Count words that contain at leas one capital letter
     replacements['uppercase_complete_words'] = len(re.findall(r"\b[A-ZÖÄÜ]+\b",description))    # Count words that are completely uppercased
     replacements['acronyms'] = len(re.findall(r"\b[A-ZÖÄÜ\.]+\b",description))                  # Count acronyms A.A.A.
+    description, replacements['impressum'] = re.subn(r"Impressum.*","",description)
     # description = description.lower()
     description, replacements['email'] = re.subn(r"\S+@\S+\.\S+", "EMAIL", description)   #Removing emails
     description, replacements['url'] = re.subn(r"uni    (\S+)?[a-zA-Z0-9]+\.(com|org|de|net|ly|tv)(\.[a-z]{2,3})?(\S+)?", "URL", description)   #Removing urls
@@ -43,11 +42,13 @@ def clean_description(description):
     # description, replacements['weird_characters'] = re.subn(r'[^a-zA-Z0-9äöüß\s]', '', description)
     description, replacements['weird_characters'] = re.subn(r"(?i)[^a-z0-9äöüß\s?!.,\"#$%'()*+\-/:;<=>@[\\\]^_`{}~]", '', description)
     description, replacements['removed_decimal_separators'] = re.subn(r"[0-9][\.,][0-9]","",description)
-    # description, replacements['nummer'] = re.subn(r"[0-9]+"," NUMMER ",description)
-    description, replacements['nummer'] = re.subn(r"[0-9]+","",description) 
+    description, replacements['nummer'] = re.subn(r"[0-9]+"," NUMMER ",description)
+    description = re.sub(r"\s+"," ",description)
+    description = re.sub(r'( NUMMER)+'," NUMMER",description)
+    # description, replacements['nummer'] = re.subn(r"[0-9]+","",description) 
     description, replacements['consecutive_nonalpha_characters'] = re.subn(r"[?!,\"#$%'()*+\-/:;<=>@[\\\]^_`{|}~▬]{2,}", '',description)
     description, replacements['consecutive_punctuation_characters'] = re.subn(r"([\"?!\.,\-])\1+", r' \1 ',description)
-    description, replacements['spaced_punctuation_characters'] = re.subn(r"([\"?!\.,\-])", r' \1 ',description)
+    description, replacements['spaced_punctuation_characters'] = re.subn(r"([\"?!\.,])", r' \1 ',description)
     description, replacements['spaced_symbols'] = re.subn(r"[\"#$%'()*+/:;<=>@[\\\]^_`{|}~]", r" \g<0> ",description)
     # description, replacements['stop_words'] = re.subn(stop_words_regex,'',description) 
     # replacements['stop_words'] = len(re.findall(stop_words_regex,description.lower()))

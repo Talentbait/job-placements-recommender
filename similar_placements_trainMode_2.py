@@ -39,14 +39,14 @@ model_versions = {
     'v01':(11421,'v01',4),
     'v02':(8858,'v02',4),
     'v02_1':(8858,'v02',4),
-    'v03':(8858,'v02',4),
+    'v03':(9088,'v02_extended',11),
     'v02_extended':(9088,'v02_extended',11)
 }
 
 model_selected = st.sidebar.selectbox(
     label = 'Which version of the model to display',
     options = list(model_versions),
-    index = 4
+    index = 3
 )
 
 version = model_selected
